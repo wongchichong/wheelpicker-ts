@@ -1,0 +1,38 @@
+{
+    "name": "wheel-picker",
+    "version": "1.1.0",
+    "description": "仿 iOS UIPickerView 的滚动选择器",
+    "main": "./dist/WheelPicker.cjs.js",
+    "module": "./dist/WheelPicker.es.js",
+    "browser": "./dist/WheelPicker.umd.js",
+    "types": "./dist/types/WheelPicker.d.ts",
+    "sass": "./dist/WheelPicker.scss",
+    "keywords": [
+        "UIPickerView",
+        "滚动选择"
+    ],
+    "scripts": {
+        "build": "vite build",
+        "start": "vite --force --mode dev --host",
+        "build1": "webpack --optimize-minimize",
+        "dev1": "webpack --progress --colors --watch",
+        "web": "vite build --config vite.config.web.ts"
+    },
+    "author": "Cople",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Cople/WheelPicker.git"
+    },
+    "homepage": "https://cople.github.io/WheelPicker",
+    "devDependencies": {
+        "css-loader": "^0.23.1",
+        "extract-text-webpack-plugin": "^1.0.1",
+        "node-sass": "^3.8.0",
+        "postcss-loader": "^0.9.1",
+        "sass-loader": "^3.2.3",
+        "style-loader": "^0.13.1",
+        "vite": "^4.3.3",
+        "webpack": "^1.13.2"
+    }
+}

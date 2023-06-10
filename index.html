@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>WheelPicker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> -->
+    <!-- <link rel="stylesheet" href="./dist/wheelpicker.min.css"> -->
+    <style>
+        body {
+            font-size: 14px;
+        }
+
+        form {
+            margin: 50px;
+        }
+
+        form div {
+            margin-bottom: 30px;
+        }
+
+        #wheelpicker-demo3 .wheelpicker-wheel {
+            width: 33.3%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form class="pure-form">
+        <h1>WheelPicker</h1>
+        <p>仿 iOS UIPickerView 的滚动选择器</p>
+
+        <div>
+            <h3>单列</h3>
+            <a href="javascript:;" id="demo1">显示</a>
+        </div>
+
+        <div class="div">
+            <h3><label for="demo2">两列带默认值</label></h3>
+            <input type="text" id="demo2">
+        </div>
+
+        <div class="div">
+            <h3><label for="demo3">城市联动</label></h3>
+            <input type="text" id="demo3" placeholder="点击选择">
+        </div>
+    </form>
+
+    <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script> -->
+    <!-- <script src="./dist/wheelpicker.min.js"></script> -->
+    <script type="module" src="index.tsx"></script>
+
+</body>
+
+</html>
